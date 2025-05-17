@@ -73,9 +73,11 @@ demo = gr.Interface(fn=captioner,
 demo.launch(share=True, server_port=int(os.environ['PORT1']))
 #run this to end server
 gr.close_all()
+~~~
+devoloped by :212224230193
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/fa4b63a0-f5d2-42e7-a260-be72bfea43a2)
-~~~
+~~
 devoloped by :212224230193
 ### RESULT:
 The prototype application for image captioning was successfully designed and deployed using the BLIP model integrated with the Gradio UI. The system effectively generates relevant captions for uploaded images and provides a user-friendly interface for interaction and evaluation.
